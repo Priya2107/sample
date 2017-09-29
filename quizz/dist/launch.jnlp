@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>quiz</title>
+        <vendor>Sumit Jaiswal</vendor>
+        <homepage href=""/>
+        <description>quiz</description>
+        <description kind="short">quiz</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="quiz.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+</resources>
+    <application-desc main-class="quiz.username">
+    </application-desc>
+</jnlp>
